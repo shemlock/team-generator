@@ -45,7 +45,7 @@ function init() {
     });
 }
 
-// Function to present menu options
+// Function for menu options
 function addTeamMember() {
     inquirer.prompt([
         {
@@ -129,5 +129,11 @@ function addIntern() {
     });
 }
 
-// Start the application
+// Function to build the team, generate HTML and write content to HTML
+function buildTeam() {
+    fs.writeFileSync(outputPath, render(team), 'utf-8');
+    console.log("Your team has been built successfully! Please go to the output folder to find the team.html file.");
+}
+
+// Function call to initialize the aplication
 init();
