@@ -62,16 +62,16 @@ const generateTeam = team => {
 
     html.push(team
         .filter(employee => employee.getRole() === "Manager")
-        .map(manager => generateManager(manager))
-    );
+        .map(manager => `<div class="col-md-4 mb-2">${generateManager(manager)}</div>`)
+        );
     html.push(team
         .filter(employee => employee.getRole() === "Engineer")
-        .map(engineer => generateEngineer(engineer))
+        .map(engineer => `<div class="col-md-4 mb-2">${generateEngineer(engineer)}</div>`)
         .join("")
     );
     html.push(team
         .filter(employee => employee.getRole() === "Intern")
-        .map(intern => generateIntern(intern))
+        .map(intern => `<div class="col-md-4 mb-2">${generateIntern(intern)}</div>`)
         .join("")
     );
 
@@ -93,21 +93,20 @@ module.exports = team => {
     <title>My Team</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading">
+            <div class="col-12 jumbotron team-heading">
                 <h1 class="text-center">My Team</h1>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="team-area col-12 d-flex justify-content-center">
                 ${generateTeam(team)}
             </div>
         </div>
