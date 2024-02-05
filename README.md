@@ -37,7 +37,7 @@ This project solves the problem of having team member information scattered ever
 * Then run "npm install" in the terminal of this repo's directory.
 
 ## Usage
-* To start the application run "node index.js" in the terminal.
+* To invoke the application please run the command "node index.js" in the terminal.
 
 * Then in you will see the prompts illustrated in the image below. The prompts are in white, example answers are in blue. Please type in your own answers relevant to your manager.
   
