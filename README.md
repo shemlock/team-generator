@@ -3,7 +3,7 @@
 * The sample html file is also available in the sample repo which can be found here: https://github.com/shemlock/sample-team-html
 * The link to the deployed application for the sample html file is available here: https://shemlock.github.io/sample-team-html/
 
-The screenshot below is an example of a team webpage created with a html file that was generated using the Team Generator Application.
+The screenshot below is an example of a team webpage created with a html file that was generated using the Team Generator Application and showcases it's appearence and functionality. 
 
  ![webpage](assets/images/site.png)
 
@@ -90,4 +90,4 @@ MIT
 
 ## Tests
 
-Tests were written using Jest,  test.js files for each class (Manager, Engineer, Intern, Employee) can be found in the _tests_ folder. To run tests, please run "npm test" in the terminal.
+Tests were written using Jest,  test.js files for each class (Manager, Engineer, Intern, Employee) can be found in the _ tests _ folder. To run tests, please run "npm test" in the terminal.
