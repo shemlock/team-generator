@@ -4,6 +4,7 @@
 * The link to the deployed application for the sample html file is availble here: https://shemlock.github.io/sample-team-html/
 
 The screenshot below is an example of a team webpage created with a html file that was generated using the Team Generator Application.
+
  ![webpage](assets/images/site.png)
 
 ## Description
@@ -38,21 +39,27 @@ This project solves the problem of having team member information scattered ever
 ## Usage
 * To start the application the run "node index.js"
 
-* Then in the terminal you will see the prompts illustrated in the image below. The prompts are in white, example answers are in blue. Please type in your own answers relevant to your manager. 
+* Then in the terminal you will see the prompts illustrated in the image below. The prompts are in white, example answers are in blue. Please type in your own answers relevant to your manager.
+  
  ![manager](assets/images/manager.png)
 
 * When you have finished entering your manager information, you will see the menu shown in the image below. Please use the arrow keys to select what you would like to do next.
-*  ![menu](assets/images/menu.png)
+  
+  ![menu](assets/images/menu.png)
 
 * If you select "Add an engineer", you will then see engineer related prompts as shown in the image below.
+  
     ![engineer](assets/images/engineer.png)
+  
 * Once you have finished entering your engineer infomration, the "What would you like to do now?" menu will reappear. You can add as many engineers as you like.
   
 * If you select "Add an Intern", you will then see intern related prompts as shown in the image below.
+  
    ![engineer](assets/images/intern.png)
   
 * Once you have finished entering your intern infomration, the "What would you like to do now?" menu will reappear. You can add as many interns as you like.
 * If you select "Finish building the team", your html file will now be generated and you should see this message in the terminal.
+  
  ![message](assets/images/finish.png)
 
 * Please then check the output folder to view your html file. You can right-click the html file and select "Open with Live Server" to view your teams webpage!
@@ -65,7 +72,8 @@ MIT
 ## Badges
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Features
 
